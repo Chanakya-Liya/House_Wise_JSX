@@ -1,0 +1,19 @@
+.viewAllPage {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+  
+  .propertyList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .propertyList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  

@@ -1,0 +1,18 @@
+.viewAll {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .viewAllButton {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .viewAllButton:hover {
+    background-color: #218838;
+  }
+  

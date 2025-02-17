@@ -1,0 +1,11 @@
+.appContainer {
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+  }
+
+  *{
+    font-family: poppins;
+  }

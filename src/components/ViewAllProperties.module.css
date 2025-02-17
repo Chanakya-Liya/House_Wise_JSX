@@ -1,0 +1,56 @@
+.viewAllPage {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .filterSection {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  .filterForm {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .filterForm label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .filterForm input,
+  .filterForm select {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .filterForm button {
+    padding: 0.7rem 1.2rem;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .propertyList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .propertyList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .propertyList {
+      grid-template-columns: 1fr;
+    }
+  }
+  

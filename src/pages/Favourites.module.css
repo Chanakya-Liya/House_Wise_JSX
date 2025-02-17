@@ -1,0 +1,53 @@
+.favoritesPage {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .favoritesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .favoritesCard {
+    position: relative;
+  }
+  
+  .removeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .noFavorites {
+    font-size: 1.5rem;
+    color: #666;
+    margin-top: 50px;
+  }
+
+  .dropZone {
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    text-align: center;
+    color: #888;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .dropZone:hover {
+    background-color: #f0f0f0;
+    color: #444;
+  }
+
+
+  

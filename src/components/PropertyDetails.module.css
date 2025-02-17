@@ -1,0 +1,199 @@
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.propertyImage {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.detailsContent {
+  text-align: left;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.detailsContent h1 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.detailsContent h2 {
+  font-size: 20px;
+  margin: 15px 0;
+  color: #444;
+}
+
+.detailsContent p {
+  margin: 5px 0;
+  line-height: 1.6;
+  color: #555;
+}
+
+.detailsContent a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.detailsContent a:hover {
+  color: #0056b3;
+}
+
+.floorPlan {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mapLink {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.mapLink:hover {
+  background-color: #0056b3;
+}
+
+.addButton {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.addButton:hover {
+  background-color: #19682c;
+}
+
+.favoritedButton {
+  background-color: #ff4d4d; 
+  color: white;
+}
+
+.favoritedButton:hover {
+  background-color: #cc0000;
+}
+
+.imageGallery {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.imageGallery img {
+  width: 100px;
+  height: 75px;
+  border-radius: 5px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.imageGallery img:hover {
+  transform: scale(1.1);
+}
+
+.tabsContainer {
+  margin: 20px auto;  
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;  
+  max-width: 1200px;  
+  transition: height 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.react-tabs__tab--disabled {
+  background-color: #f2f2f2;
+  color: #ccc;
+}
+
+.react-tabs__tab-panel {
+  padding: 20px;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.react-tabs__tab-panel {
+  display: none; 
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block; 
+  opacity: 1;
+}
+
+.tabDescription {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  white-space: pre-line;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.floorPlan {
+  text-align: center;
+}
+
+.floorPlan img {
+  width: 60vw;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.googleMap {
+  width: 100%;
+  height: auto;
+  min-height: 450px;
+  border: 0;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.noData {
+  text-align: center;
+  color: #777;
+  font-size: 18px;
+  padding: 20px;
+}
